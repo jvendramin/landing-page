@@ -4,8 +4,12 @@
         <title>Landing Page</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css" />
+        <script>
+            setTimeout(function(){
+                 document.body.className="preload";},1);
+        </script>
     </head>
-    <body>
+    <body class="preload">
         <div>
             <p class="title">
             A NOT-SO
@@ -17,6 +21,11 @@
                     <li><a href="index.html">About</a></li>
                     <li><a href="index.html">Contact</a></li>
                 </ul>
+            </div>
+            <div class=grid>
+                <img src="earth.jpg" alt="Sample photo">
+                <img src="astronaut.jpg" alt="Sample photo">
+                <img src="alien.jpeg" alt="Sample photo">
             </div>
         </div>
     </body>
