@@ -11,31 +11,33 @@ body {
   }
 
 .title {
-    color: rgb(195, 15, 51);
+    color: rgb(0, 0, 0);
     font-family: customFont;
-    font-size: 70px;
+    font-size: 60px;
+    font-weight: bold;
     white-space: pre-wrap;
     text-align: right;
-    text-shadow: black;
-    
-    box-shadow: 0 0 0 0 transparent;
-	transform: scale(2);
-	animation: pulse 4s infinite;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.208);
 }
 
-@keyframes pulse {
-	0% {
-		transform: scale(0.97);
-		box-shadow: 0 0 0 0 transparent;
-	}
-
-	70% {
-		transform: scale(0.99);
-		box-shadow: 0 0 0 10px transparent;
-	}
-
-	100% {
-		transform: scale(0.97);
-		box-shadow: 0 0 0 0 transparent;
-	}
+.menubar {
+    margin-top: -120px;
+    width: auto;
+    text-align: right;
 }
+
+.menubar#menu {
+    list-style-type:none;
+    color: rgb(0, 0, 0);
+    font-family: customFont;
+    font-size: 24px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.208);
+}
+
+.menubar#menu li {
+    display: inline;
+}
+
+.menubar#menu a {
+    padding: 12px;
+  }
