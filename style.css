@@ -1,0 +1,41 @@
+body {
+    background-image: url('rocket.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+@font-face {
+    font-family: customFont;
+    src: url(PixeloidSans-mLxMm.ttf);
+  }
+
+.title {
+    color: rgb(195, 15, 51);
+    font-family: customFont;
+    font-size: 70px;
+    white-space: pre-wrap;
+    text-align: right;
+    text-shadow: black;
+    
+    box-shadow: 0 0 0 0 transparent;
+	transform: scale(2);
+	animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.97);
+		box-shadow: 0 0 0 0 transparent;
+	}
+
+	70% {
+		transform: scale(0.99);
+		box-shadow: 0 0 0 10px transparent;
+	}
+
+	100% {
+		transform: scale(0.97);
+		box-shadow: 0 0 0 0 transparent;
+	}
+}
