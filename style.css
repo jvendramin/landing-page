@@ -79,3 +79,20 @@ body {
     max-width: 100%;
     border-radius: 8px;
 }
+
+.quote {
+    margin-top: 40px;
+    padding-right: 15px;
+}
+
+.quote#text {
+    border: 3px dashed black;
+    max-width: 32%;
+    float: right;
+    color: rgb(0, 0, 0);
+    font-family: customFont;
+    font-size: 22px;
+    white-space: pre-wrap;
+    text-align: right;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.208);
+}
